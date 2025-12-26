@@ -8,7 +8,8 @@ A simple and powerful Flutter application that allows users to apply real-time f
 4. Real-time image preview
 5. Smooth pixel-based rendering using the image package
 
-📂 Project Structure
+## 📂 Project Structure
+```plaintext
 lib/
  ├─ main.dart
  ├─ views/
@@ -16,6 +17,7 @@ lib/
  │   └─ filter_screen.dart
  └─ utils/
      └─ filter_utils.dart
+```
 
 ## 📦 Dependencies
 Add the following packages in your pubspec.yaml:
@@ -51,7 +53,12 @@ flutter run
 3. Updates the preview instantly
 
 ## 📚 Learning Outcomes
-By building this app, you learn how to: - Use Image Picker - Decode images to raw pixels - Modify pixel data with the image library - Build slider-based UI for real-time adjustments - Update UI efficiently with Image.memory
+By building this app, you learn how to: - Use Image Picker - Decode images to raw pixels - Modify pixel data with the image library - Build slider-based UI for real-time adjustments - Update UI efficiently with Image.memory.
+
+## Screencast 
+
+
+
 
 ## About Me 
 ✨ I’m **Sufyan bin Uzayr**, an open-source developer passionate about building and sharing meaningful projects.
@@ -67,3 +74,4 @@ You can learn more about me and my work at [sufyanism.com](https://sufyanism.com
 ➡ Follow us on Instagram: [zeba.academy](https://www.instagram.com/zeba.academy/)  </br>
 
 **Thank you for visiting!**
+
