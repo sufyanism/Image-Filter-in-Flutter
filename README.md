@@ -56,9 +56,7 @@ flutter run
 By building this app, you learn how to: - Use Image Picker - Decode images to raw pixels - Modify pixel data with the image library - Build slider-based UI for real-time adjustments - Update UI efficiently with Image.memory.
 
 ## Screencast 
-
-
-
+https://github.com/user-attachments/assets/35d2e28b-1fdb-4604-8d4c-553489e530a0
 
 ## About Me 
 ✨ I’m **Sufyan bin Uzayr**, an open-source developer passionate about building and sharing meaningful projects.
@@ -74,4 +72,5 @@ You can learn more about me and my work at [sufyanism.com](https://sufyanism.com
 ➡ Follow us on Instagram: [zeba.academy](https://www.instagram.com/zeba.academy/)  </br>
 
 **Thank you for visiting!**
+
 
