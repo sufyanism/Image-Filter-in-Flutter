@@ -1,16 +1,54 @@
-# images_filters_app
+# 📸 Flutter Image Filter App
+A simple and powerful Flutter application that allows users to apply real-time filters to any image, similar to Instagram. Users can modify brightness, contrast, saturation, toggle grayscale, add sepia effects, and preview changes instantly.
 
-A new Flutter project.
+## 🚀 Features
+1. Import image from gallery
+2. Adjust brightness, contrast, saturation
+3. Apply Grayscale & Sepia filters
+4. Real-time image preview
+5. Smooth pixel-based rendering using the image package
 
-## Getting Started
+📂 Project Structure
+lib/
+ ├─ main.dart
+ ├─ views/
+ │   ├─ home_screen.dart
+ │   └─ filter_screen.dart
+ └─ utils/
+     └─ filter_utils.dart
 
-This project is a starting point for a Flutter application.
+## 📦 Dependencies
+Add the following packages in your pubspec.yaml:
+```plaintext
+dependencies:
+  flutter:
+    sdk: flutter
+  image: ^4.2.0
+  image_picker: ^1.0.7
+```
 
-A few resources to get you started if this is your first Flutter project:
+## Purpose
+1. image → Pixel-level manipulation
+2. image_picker → Import image from gallery/camera
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## ▶️ How to Run the App
+1. Clone or download the project
+2. Install dependencies:
+flutter pub get
+3. Run the app:
+flutter run
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🖼️ How It Works
+• The selected image is decoded into raw pixels
+• Filters (brightness, contrast, saturation) are applied using adjustColor()
+• Sepia & grayscale effects adjust color channels
+• Updated bytes are rendered immediately using Image.memory
+• Smooth & real-time filter rendering
+
+## filter_screen.dart
+1. Loads original image
+2. Applies filters live
+3. Updates the preview instantly
+
+## 📚 Learning Outcomes
+By building this app, you learn how to: - Use Image Picker - Decode images to raw pixels - Modify pixel data with the image library - Build slider-based UI for real-time adjustments - Update UI efficiently with Image.memory
